@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.game-board {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.config-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.status {
+    width: 75%;
+    height: 35px;
+    margin-top: 15px !important;
+    text-align-last: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.header {
+    height: 50px;
+    padding: 0;
+}
+
+#current {
+    font-size: 30px;
+}
+
+#perSecond {
+    font-size: 17px;
+}
+
+#perSecond::after {
+    content: "/s";
+    font-size: 14px;
+}
+
+.level-container {
+    text-align-last: center;
+    max-width: 500px;
+    margin: 25px auto 0 auto;
+}
+
+#level::before {
+    content: "Level ";
+}
+
+.level-font {
+    font-size: 26px;
+}
+
+.health-container {
+    text-align-last: center;
+    max-width: 500px;
+    margin: 25px auto 0 auto;
+    padding: 15px;
+}
+
+.monster-container {
+    text-align-last: center;
+    max-width: 600px;
+    margin: 25px auto 0 auto;
+}
+
+#health {
+    font-size: 18px;
+}
+
+#health::after {
+    content: " HP";
+    font-size: 14px;
+}
+
+.monster {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.monster:active {
+    background-color: pink;
+}
+
+.upgrade-container {
+    height: 100px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.item-upgrade {
+    width: 100px;
+}
+
+.upgrade-container div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.upgrade-container div {
+    margin-bottom: 10px;
+}
+
+.amount {
+    float: right;
+    margin-right: 5px;
+}
+
+.cost-container {
+    text-align-last: center;
+    margin-top: 73px;
+}
+
+.monster-image {
+    width: inherit;
+    height: inherit;
+}
